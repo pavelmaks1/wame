@@ -7,4 +7,4 @@ import './styles/styles.scss';
 
 
 
-ReactDOM.render(<p>This is my PUtin</p>,document.getElementById('root'));
+ReactDOM.render(<p>This is m</p>,document.getElementById('root'));
