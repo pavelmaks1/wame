@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn add enzyme-to-json
+  /usr/bin/node /usr/bin/yarn add extract-text-webpack-plugin
 
 PATH: 
   /home/hector/.rbenv/plugins/ruby-build/bin:/home/hector/.rbenv/shims:/home/hector/.rbenv/bin:/home/hector/bin:/home/hector/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -22,6 +22,7 @@ npm manifest:
     "scripts": {
       "serve": "live-server public/",
       "build": "webpack --mode development --watch",
+      "build:prod": "webpack -p --env production",
       "dev-server": "webpack-dev-server --mode development ",
       "test": "jest --config=jest.config.json"
     },
@@ -36,6 +37,7 @@ npm manifest:
       "css-loader": "^0.28.10",
       "enzyme": "^3.3.0",
       "enzyme-adapter-react-16": "^1.1.1",
+      "enzyme-to-json": "^3.3.1",
       "jest": "^22.4.2",
       "live-server": "^1.2.0",
       "moment": "^2.21.0",
@@ -2576,6 +2578,12 @@ Lockfile:
       lodash "^4.17.4"
       object.assign "^4.0.4"
       prop-types "^15.6.0"
+  
+  enzyme-to-json@^3.3.1:
+    version "3.3.1"
+    resolved "https://registry.yarnpkg.com/enzyme-to-json/-/enzyme-to-json-3.3.1.tgz#64239dcd417e2fb552f4baa6632de4744b9b5b93"
+    dependencies:
+      lodash "^4.17.4"
   
   enzyme@^3.3.0:
     version "3.3.0"
