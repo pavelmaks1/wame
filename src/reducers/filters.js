@@ -1,5 +1,7 @@
 import moment from 'moment';
-// Filers Reducers
+
+// Filters Reducer
+
 const filtersReducerDefaultState = {
   text: '',
   sortBy: 'date',
@@ -8,7 +10,7 @@ const filtersReducerDefaultState = {
 };
 
 export default (state = filtersReducerDefaultState, action) => {
-  switch( action.type) {
+  switch (action.type) {
     case 'SET_TEXT_FILTER':
       return {
         ...state,

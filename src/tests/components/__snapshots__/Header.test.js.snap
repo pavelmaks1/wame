@@ -36,20 +36,6 @@ ShallowWrapper {
         >
           Create Expense
         </NavLink>,
-        <NavLink
-          activeClassName="is-active"
-          ariaCurrent="true"
-          to="/edit"
-        >
-          Edit Expense
-        </NavLink>,
-        <NavLink
-          activeClassName="is-active"
-          ariaCurrent="true"
-          to="/help"
-        >
-          Help
-        </NavLink>,
       ],
     },
     "ref": null,
@@ -94,34 +80,6 @@ ShallowWrapper {
         "rendered": "Create Expense",
         "type": [Function],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "ariaCurrent": "true",
-          "children": "Edit Expense",
-          "to": "/edit",
-        },
-        "ref": null,
-        "rendered": "Edit Expense",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "ariaCurrent": "true",
-          "children": "Help",
-          "to": "/help",
-        },
-        "ref": null,
-        "rendered": "Help",
-        "type": [Function],
-      },
     ],
     "type": "header",
   },
@@ -149,20 +107,6 @@ ShallowWrapper {
             to="/create"
           >
             Create Expense
-          </NavLink>,
-          <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/edit"
-          >
-            Edit Expense
-          </NavLink>,
-          <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/help"
-          >
-            Help
           </NavLink>,
         ],
       },
@@ -206,34 +150,6 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Create Expense",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "ariaCurrent": "true",
-            "children": "Edit Expense",
-            "to": "/edit",
-          },
-          "ref": null,
-          "rendered": "Edit Expense",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "ariaCurrent": "true",
-            "children": "Help",
-            "to": "/help",
-          },
-          "ref": null,
-          "rendered": "Help",
           "type": [Function],
         },
       ],

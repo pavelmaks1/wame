@@ -9,11 +9,16 @@ export const ExpenseList = (props) => (
       props.expenses.length === 0 ? (
         <p>No expenses</p>
       ) : (
-          props.expenses.map((expense) => {
-            return <ExpenseListItem key={expense.id} {...expense} />;
-          })
+        props.expenses.map( (expense,index) =>
+          <ExpenseListItem 
+            {...expense} 
+            key={expense.id}
+          />
         )
+      )
     }
+
+
   </div>
 );
 
@@ -23,4 +28,6 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default connect(mapStateToProps)(ExpenseList);
+const ConnectedExpenseList = connect(mapStateToProps)(ExpenseList);
+
+export default ConnectedExpenseList;

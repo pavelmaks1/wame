@@ -23,7 +23,7 @@ ShallowWrapper {
           replace={false}
           to="/"
         >
-          Go Home!
+          Go home
         </Link>,
       ],
     },
@@ -35,12 +35,12 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": "Go Home!",
+          "children": "Go home",
           "replace": false,
           "to": "/",
         },
         "ref": null,
-        "rendered": "Go Home!",
+        "rendered": "Go home",
         "type": [Function],
       },
     ],
@@ -58,7 +58,7 @@ ShallowWrapper {
             replace={false}
             to="/"
           >
-            Go Home!
+            Go home
           </Link>,
         ],
       },
@@ -70,12 +70,12 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": "Go Home!",
+            "children": "Go home",
             "replace": false,
             "to": "/",
           },
           "ref": null,
-          "rendered": "Go Home!",
+          "rendered": "Go home",
           "type": [Function],
         },
       ],
