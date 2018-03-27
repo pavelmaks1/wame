@@ -6,9 +6,9 @@ import { LoginPage } from './LoginPage';
 
 const ExpenseDashboardPage = () => (
   <div>
+    <ExpensesSummury />
     <ExpenseListFilters />
     <ExpenseList />
-    <ExpensesSummury />
   </div>
 );
 
